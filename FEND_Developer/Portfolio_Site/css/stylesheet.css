@@ -1,0 +1,212 @@
+body {
+	font-family: 'BioRhyme', serif; 
+	font-weight: 300;
+	background:
+	radial-gradient(black 15%, transparent 16%) 0 0,
+	radial-gradient(black 15%, transparent 16%) 8px 8px,
+	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+	background-color:#282828;
+	background-size:16px 16px;
+}
+
+img , embed, object, video {
+   max-width: 100%;
+}
+
+.grey_out:hover {
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+  cursor: crosshair;
+}
+
+p {
+	display: inline;
+	color: #e3e5e0;
+	text-shadow: 2px 2px 2px #212121;
+}
+
+h4 {
+	color: white;
+}
+
+button {
+	background-color: #ff2110;
+	color: white;
+	border: none;
+}
+
+button:hover {
+	background: #02b3e4;
+	color: black;
+}
+
+i {
+	margin-right: 5px;
+	margin-left: 5px
+}
+
+.main-image {
+	background: black;	
+	width: 100%;
+	display: flex;
+	align-content: center;
+	-webkit-box-shadow: -1px 13px 56px -7px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 13px 56px -7px rgba(0,0,0,0.75);
+	box-shadow: -1px 13px 56px -7px rgba(0,0,0,0.75);
+}
+
+.big-logo {
+	display: flex; 
+	flex-wrap: wrap;
+	-webkit-box-shadow: -1px 13px 56px -7px rgba(0,0,0,0.75);
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.title-super {
+	font-size: 60px;
+	font-family: 'Yatra One', cursive;
+	padding-top: 2px;
+}
+
+.project-img {
+	background:
+	radial-gradient(black 15%, transparent 16%) 0 0,
+	radial-gradient(black 15%, transparent 16%) 8px 8px,
+	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+	background-color:#282828;
+	background-size:16px 16px;	color: #2d3c49;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	width: 200px;
+	display: block;
+	overflow: hidden;
+	-webkit-box-shadow: -1px 13px 56px -7px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 13px 56px -7px rgba(0,0,0,0.75);
+	box-shadow: -1px 13px 56px -7px rgba(0,0,0,0.75);
+}
+
+.ag-logo {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	width: 150px;
+}
+
+.footer {
+	background: black;
+	display: flex; 
+	flex-wrap: wrap;
+	color: white;
+	width: 100%;
+	-webkit-box-shadow: -1px 13px 56px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 13px 56px 1px rgba(0,0,0,0.75);
+	box-shadow: -1px 13px 56px 1px rgba(0,0,0,0.75);
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.header-block {
+	background-color:black;
+	background-image:
+	radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+	radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+	radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+	radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+	background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+	background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+	color: #e3e5e0;
+	width: 100%;
+	-webkit-box-shadow: -1px 13px 56px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 13px 56px 1px rgba(0,0,0,0.75);
+	box-shadow: -1px 13px 56px 1px rgba(0,0,0,0.75);
+}
+
+.u-portfolio {
+	font-family: 'Creepster', cursive;
+	width: 100%;
+	background-color: black;
+	display: inline-flex;
+	-webkit-box-shadow: -1px 13px 56px -7px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 13px 56px -7px rgba(0,0,0,0.75);
+	box-shadow: -1px 13px 56px -7px rgba(0,0,0,0.75);
+}
+
+.text-muted {
+	color: #02b3e4;
+	text-shadow: 2px 2px 2px #212121;
+}
+
+.bottom-main {
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.projects {
+	display: inline-grid;
+}
+	
+.project-lists {
+	color: #e3e5e0;
+	-webkit-box-shadow: -1px 13px 56px -7px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 13px 56px -7px rgba(0,0,0,0.75);
+	box-shadow: -1px 13px 56px -7px rgba(0,0,0,0.75);
+}
+
+.text-uppercase {
+	text-shadow: black;
+}
+
+.title-type {
+	background: black
+}
+
+.title-logo {
+	background-color: #2d3c49;
+}
+
+.media-links {
+	width: 50px;
+	margin-right: 10px; 
+	margin-left: 10px;
+	display: inline-flex;
+}
+
+.media-links:hover {
+	background: red;
+}
+
+.fa-bicycle {
+	font-size: 25px;
+}
+
+.fa-instagram {
+	font-size: 40px;
+	color: white;
+}
+
+.fa-linkedin {
+	font-size: 40px;
+	color: white;
+}
+
+.fa-github {
+	font-size: 40px;
+	color: white;
+}
+
+.fa-instagram:hover {
+	background: red;
+}
+
+.fa-linkedin:hover {
+	background: red;
+}
+
+.fa-github:hover {
+	background: red;
+}
